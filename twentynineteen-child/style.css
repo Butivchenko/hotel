@@ -1,0 +1,78 @@
+/*
+Theme Name:     Test
+Theme URI:
+Description:    Twentynineteen child theme.
+Author:         Liluweb
+Author URI:
+Template:       twentynineteen
+Version:        0.1.0
+*/
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article.type-hb_room{
+    width: 33%;
+    position: relative;
+}
+article.type-hb_room img{
+    height: 475px;
+}
+.art-last-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.art-last-content .last-content span{
+    display: block;
+    font-weight: 600;
+    max-width: 260px;
+}
+.art-last-content .last-content-a {
+    font-size: 16px;
+    color: #f1be46;
+    font-weight: 600;
+
+}
+.entry {
+    margin-top: unset;
+}
+
+.title_content{
+    position: absolute;
+    left: 0;
+    padding: 10px 20px;
+    background-color: white;
+    width: 200px;
+    bottom: 0;
+}
+
+.short_meta{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: none;
+    width: 75%;
+    background-color: rgba(255,255,255,0.9);
+}
+
+article.type-hb_room:hover  .short_meta{
+    display: block;
+    padding: 30px;
+}
+
+article.type-hb_room:hover  .title_content{
+    display: none;
+}
+
+.check_btn {
+    background-color: #E3AC6B;
+    width: 100%;
+    padding: 20px;
+    bottom: 13px;
+    border-radius: 0px;
+}
+
